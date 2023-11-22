@@ -1,0 +1,33 @@
+p {
+    /* Change la couleur des paragraphes*/
+        color: yellow;
+        background-color: red;
+    }
+
+h1 {
+    /* Centre les titres et les mettre en gras*/
+        text-align: center;
+        font-weight: bold;
+    }
+
+a {
+        color: blue;
+        text-decoration: solid;
+    }
+
+a:hover {
+    /* Change la couleur au survol pour du rouge et la decorations*/
+        color: lightblue;
+        text-decoration: underline;
+    }
+
+div.div1 ul li:nth-child(2) {
+    /* Modifier uniquement le 2ème élément de la liste de la div1 */
+        color: red;
+    }
+
+/* Modifier uniquement la couleur de la div "div1" */
+div.div1 * {
+        color: black;
+        background-color: white;
+    }
